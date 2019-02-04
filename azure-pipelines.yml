@@ -1,10 +1,3 @@
-- task: ShellScript@2
-  inputs:
-    scriptPath:
-    #args: '' # Optional
-    #disableAutoCwd: false # Optional
-    #cwd: '' # Optional
-    #failOnStandardError: false
     
 #!/bin/bash
 echo "Hello World"
@@ -16,3 +9,4 @@ echo "AGENT_BUILDDIRECTORY contents:"
 ls -1 $AGENT_BUILDDIRECTORY
 echo "SYSTEM_HOSTTYPE is $SYSTEM_HOSTTYPE"
 echo "Over and out."
+./sample_unix_script
